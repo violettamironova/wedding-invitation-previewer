@@ -1,0 +1,51 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    height: 100vh;
+
+    div {
+        height: 600px;
+        width: 800px;
+        /* display: flex;
+        justify-content: center; */
+    }
+    }
+
+    /* .grid {
+    
+        display: grid;
+        grid-template-areas:
+        'Form Card';
+
+        gap: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        color: black;
+        width: 1500px;
+        margin: 0 auto;
+         }
+     
+    .btn,
+    .Card,
+    {
+    background-color: blue;
+    border: black;}
+    
+    .btn {grid-area: Form;}
+    .Card {grid-area: Card;}
+    
+    
+        figure img {
+        width: 400px;
+        height: 450px;
+        object-fit: contain; }  
+       
+       
+    
+    }  */

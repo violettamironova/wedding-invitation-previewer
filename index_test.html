@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<script> 
+
+var customerName = prompt("Please enter your name", "");
+if (customerName!= null) {
+    document.getElementById("welcome").innerHTML =
+    "Hello " + customerName + "! How are you today?";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<div id="welcome">My First JavaScript code.</div>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+!-- Header -->
+<!-- <div class="header">
+  <h1>Wedding Invitation Design</h1>
+</div> -->
+
+<!-- Photo Grid -->
+<!-- <div class="row"> 
+  <div class="column">
+  <img src="annie-spratt-qJQcpKHtkJI-unsplash.jpg" style="width:100%">
+   </div> --> -->
+  <!-- <div class="column">
+  <img src="/w3images/underwater.jpg" style="width:100%">
+  
+  </div>  
+  
+
+</body>
+</html>
+
+
+***************
+-- <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 600px; Should be removed. Only for demonstration
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Unequal Columns</h2>
+
+<div class="row">
+  <div class="column left" style="background-color:#aaa;">
+    <h2>Column 1</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column right" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html> -->
+
+
+<!-- ********** -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="invite.js"></script>
+</head>
+
+<style>
+    html {
+        background-image: url("annie-spratt-qJQcpKHtkJI-unsplash.jpg");
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
+    #name {
+        border-bottom: 1px solid rgb(139, 130, 130);
+        border-radius: 5px;
+        position: relative;
+        display: block;
+        left: 15%;
+        top: 140px;
+    }
+
+    #DOB {
+        border-bottom: 1px solid rgb(139, 130, 130);
+        border-radius: 5px;
+        position: relative;
+        display: block;
+        left: 15%;
+        top: 180px;
+    }
+
+    #email {
+        border-bottom: 1px solid rgb(139, 130, 130);
+        border-radius: 5px;
+        position: relative;
+        display: block;
+        left: 19%;
+        top: 220px;
+    }
+
+    .container {
+       border: 2px solid white; 
+        width: 43%;
+        position: absolute;
+        top: 86px;
+        left: 21%;
+        height: 401px;
+        border-radius: 20px
+    }
+
+    #name1 {
+        display: inline;
+        position: absolute;
+        top: 32%;
+        left: 23px;
+        color: white;
+    }
+
+    #dob1 {
+        display: inline;
+        position: absolute;
+        top: 49%;
+        left: 29px;
+        color: white;
+    }
+
+    #email1 {
+        display: inline;
+        position: absolute;
+        top: 66%;
+        left: 28px;
+        color: white;
+    }
+
+    #submit {
+        position: absolute;
+        top: 75%;
+        left: 57%;
+        border-radius: 5px;
+    }
+    #invite {
+        position: relative;
+        font-size: 43px;
+        color: white;
+        display: inline;
+        left: 21%;
+top: 124px;
+    }
+</style>
+
+<body>
+    <p id="invite" >INVITATION</p>
+    <div class="container">
+        <form action="#">
+            <input type="text" id="name">
+            <p id="name1">NAME</p>
+            <input type="datetime" id="DOB">
+            <p id="dob1">DOB</p>
+            <input type="email" id="email">
+            <p id="email1">EMAIL ID</p>
+
+        </form>
+    </div>
+    <button type="button" id="submit" onclick="myfunc()">SUBMIT</button>
+    <script>
+        function myfunc() {
+            alert("INVITATION: \nITS A MATTER OF IMMENSE CONCERN AND GRIEF THAT  
+            \nYOU ARE INVITED ON MY BIRTHDAY ON DD/MM/YYYY \n AT MY HOME ON 11AM")
+
+        }
+    </script>
+</body>
+
+</html> -->
