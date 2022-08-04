@@ -5,20 +5,52 @@ margin: 0;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    background-color: rgb(198, 231, 214);
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; */
     height: 100vh;
 }
 
-    /* div {
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    padding: 40px;
+    text-align: center;
+    background: #8fd0c3;
+    color: white;    
+
+}
+
+/* .btn {
+    margin-top: 200px;
+} */
+/* 
         height: 600px;
-        width: 800px;
+        width: 800px; */
         /* display: flex;
         justify-content: center; */
     
-    .btn {
-        font-size: 36px;
+    .b1 {
+        margin-top: 50px;   
+        margin-left: 100px;   
         background-color: rgb(90, 52, 129);
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .Form {
+        margin-left: 100px;
+        margin-top: 50px;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 200;
     }
         
        
@@ -28,10 +60,60 @@ body {
         border:solid 1px #000;
         padding:10px;
         margin-right: 100px;
+        margin-bottom: 50px;
+        float:right;
+        text-align: center;
+        font-family: Lucida Calligraphy;
+        font-size: 16px;
+        color: white;
+                
     }
-    #myDIV {float:right; margin-top: 50px; list-style-type: none; }
 
+    .CardHeader {
+        text-align: center;        
+        font-family: Lucida Calligraphy;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        margin:50px 20px 20px 20px ;
+    }
+    
+    #line1 {
+        text-align: center;        
+        font-family: Lucida Calligraphy;
+        font-size: 40px;
+        color: white;
+    }
 
+    #line2 {
+        text-align: center;        
+        font-family: Lucida Calligraphy;
+        font-size: 40px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    #line3 {
+        text-align: center;        
+        font-family: Lucida Calligraphy;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 15px;
+    }
+    #line4 {
+        text-align: center;        
+        font-family: Lucida Calligraphy;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 40px;
+    }
+
+    #line5 {
+        text-align: center;        
+        font-family: Lucida Calligraphy;
+        font-size: 20px;
+        color: white;
+    }
     
     /* .grid { 
     

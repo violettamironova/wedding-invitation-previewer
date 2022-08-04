@@ -15,11 +15,10 @@
     <footer>Footer</footer> -->
 
     <!-- <div class="grid"> -->
-       
-       <section class="btn">
-        <button onclick="changeCard1()">Australian</button>
-        <button onclick="changeCard2()">Nature</button>
-        <button onclick="changeCard3()">Modern</button>
+     <section class="btn">
+        <button class="b1" onclick="changeCard1()">Australian</button>
+        <button class="b1" onclick="changeCard2()">Moden</button>
+        <button class="b1" onclick="changeCard3()">Nature</button>
        </section> 
        <br>
 
@@ -29,28 +28,33 @@
     </figure> -->
     
     <div id="myDIV">
-        <h1>You are cordially invited to </h1>
+        <p class="CardHeader">You are cordially invited to the wedding of </p>
+        <br>
+        <p id="line1"></p>
+        <p id="line2"></p>
+        <p id="line3"></p>
+        <p id="line4"></p>
+        <p id="line5"></p>
       </div>
 
     <div class="Form">
         <br>
-        <label for="btn1">First Name</label>
-        <input type="text" id="btn1" placeholder="Enter First Name" maxlength="20"><br><br>
-        <label for="btname2">Second Name</label>
-        <input type="text" id="btn2" placeholder="Enter Second Name" maxlength="20"><br><br>
+        <label for="btn1">Bride Name</label>
+        <input type="text" id="btn1" placeholder="Enter Name" maxlength="25"><br><br>
+        <label for="btname2">Groom Name</label>
+        <input type="text" id="btn2" placeholder="Enter Name" maxlength="25"><br><br>
         <label for="btn3">Date</label>
         <input type="date" id="btn3" placeholder="Enter Wedding Date" maxlength="20"><br><br>
         <label for="btn4">Venue</label>
-        <input type="text" id="btn4" placeholder="Enter Veue Address" maxlength="20"><br><br>
+        <input type="text" id="btn4" placeholder="Enter Venue Address" maxlength="40"><br><br>
+        <label for="btn5">RSVP</label>
+        <input type="text" id="btn5" placeholder="Enter Date" maxlength="30"><br><br>
 
-        <input type="button" id="btn0" value="Click">
+        <!-- <input type="button" id="btn0" value="Click">
 
-        <p class="dataOutput" id="output"></p>
+        <p class="dataOutput" id="output"></p> -->
 
     </div>
-    
-
-    <!-- </div> -->
     
     
     <script src="script.js"></script>
