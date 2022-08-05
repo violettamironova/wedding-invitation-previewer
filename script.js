@@ -27,7 +27,7 @@ function changeCard1() {
 
     function trigger1(){
       const text = txt1.value
-      line1.innerText = text
+      line1.innerText = `${text} &`
 
     }
     txt2.addEventListener('keyup',trigger2)
@@ -60,7 +60,7 @@ function changeCard1() {
 
     function trigger5(){
       const text = txt4.value
-      line5.innerText = text
+      line5.innerText = `RSVP by    ${text}`
 
     }
     
