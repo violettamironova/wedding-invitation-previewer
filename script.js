@@ -1,11 +1,11 @@
 function changeCard1() {
-    document.getElementById("myDIV").style.backgroundImage = "url(image10.jpg)"; 
+    document.getElementById("myDIV").style.backgroundImage = "url(Image10.jpg)"; 
    }
  function changeCard2() {
-    document.getElementById("myDIV").style.backgroundImage = "url(image20.jpg)";
+    document.getElementById("myDIV").style.backgroundImage = "url(Image20.jpg)";
  }
  function changeCard3() {
-    document.getElementById("myDIV").style.backgroundImage = "url(image30.jpg)";
+    document.getElementById("myDIV").style.backgroundImage = "url(Image30.jpg)";
  }
 
     const txt1 = document.getElementById('btn1')
